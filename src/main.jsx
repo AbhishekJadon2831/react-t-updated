@@ -7,7 +7,6 @@ import { BrowserRouter } from 'react-router-dom';
 import { ThemeProvider } from './context/ThemeContext.jsx'
 import { AuthProvider } from './context/Authcontext.jsx';
 import { CartProvider } from './context/addtocard.jsx';
-// import { Something } from "./context/addtocard.jsx"
 
 
 
@@ -15,7 +14,6 @@ import { CartProvider } from './context/addtocard.jsx';
 
 
 createRoot(document.getElementById('root')).render(
-  // <Something>
   <CartProvider>
   <ThemeProvider>
   
